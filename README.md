@@ -6,17 +6,12 @@ Here is a search engine implementation of the Apache Lucene Library (written in 
 - Basic Apache Lucene APIs are used. [ `lucene-core`, `lucene-analyzers-common`, `lucene-queryparser` ]
 - Trec_eval is used to test the scores of created search engine with graded score judgements provided.
 
-cran.all.1400
 
 ## Getting Started
 
 Given instructions will help to get a copy of the project up and running on a local machine or cloud machine for development and testing purposes.
 
-- Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-```bash
-pip install foobar
-```
 
 ### Prerequisites
 Things needed to install the application and test results.
@@ -68,7 +63,7 @@ cd ../trec_eval-9.0.7/
 gnuplot test.gnuplot
 ```
 Result:
-![](pr_graph.png)
+![](plot/pr_graph.png)
 
 ### Another Way - A quick way!!
 For ease of running project script is available which will do every tasks just by running it - `run_script.sh`
