@@ -14,7 +14,7 @@ cp -r searchResult ../trec_eval-9.0.7/
 echo "Running trec_eval..."
 cd ../trec_eval-9.0.7/
 
-
+make
 
 FILES=searchResult/*
 for f in $FILES
