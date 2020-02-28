@@ -53,9 +53,10 @@ java -cp target/*.jar
 cp -r searchResult ../trec_eval-9.0.7/
 ```
 
-6. Change directory to `trec_eval-9.0.7` and Compare results available.
+6. Change directory to `trec_eval-9.0.7`, make trec_eval and Compare results available.
 ```bash
 cd ../trec_eval-9.0.7/
+make
 ./trec_eval -m map test/QRelsCorrectedforTRECeval searchResult/{any-result-file.txt}
 ```
 6. Plot P/R graph for different similarity( using result files ).
