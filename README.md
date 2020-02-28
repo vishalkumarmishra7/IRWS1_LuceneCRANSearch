@@ -33,9 +33,14 @@ Project contains directories:
 
 
 Steps to Follow:
-1. Clone this repository to designated directory.
+1. Clone this repository to designated directory. 
 
-2. Using a terminal - change current directory to the `LuceneSearch` directory, where pom.xml is available.
+2. Using a terminal - change current directory to cloned directory and run:
+```bash
+chmod +700 run_script.sh
+```
+
+Again get inside the `LuceneSearch` directory, where pom.xml is available.
 
 3. Clean Project, Build and compile
 ```bash
